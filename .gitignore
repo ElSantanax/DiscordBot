@@ -1,0 +1,51 @@
+# Archivos del sistema operativo y de desarrollo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# Dependencias y directorios de construcción
+node_modules/
+dist/
+build/
+bin/
+obj/
+
+# Archivos de log
+*.log
+log/
+logs/
+
+# Archivos temporales y de caché
+tmp/
+temp/
+*.tmp
+*.cache
+.pytest_cache/
+__pycache__/
+
+# Archivos de entorno y credenciales (¡MUY IMPORTANTE!)
+.env
+.env.*
+config.js.local
+credentials.json
+*.pem
+
+# Archivos de paquetes y compresión
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Archivos generados automáticamente (ej. documentación, reportes)
+docs/
+report/
+*.pdf
+*.txt
